@@ -3,7 +3,7 @@ import pprint
 import pytest
 
 
-url = "https://httpbin.org/"
+url = "https://httpbinx.org/"
 
 r = requests.get(url + "get")
 print(f"Call Status Code: {r.status_code}")
